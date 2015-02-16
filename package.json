@@ -1,0 +1,22 @@
+{
+  "name": "metodosNumericos",
+  "version": "1.0.0",
+  "description": "contador de cifras significativas",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --harmony $(which nodeunit) test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mongit/MetodosNumericos.git"
+  },
+  "author": "Monserrat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mongit/MetodosNumericos/issues"
+  },
+  "homepage": "https://github.com/Mongit/MetodosNumericos",
+  "dependencies": {
+    "nodeunit": "^0.9.0"
+  }
+}
