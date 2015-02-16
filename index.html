@@ -21,6 +21,11 @@
   <script>
     var contar =function(num) {
       //todos los numeros que no tengan cero
+      var regla1a = /^([1-9])+$/;
+      if(regla1a.test(num)) {
+          return num.length;
+      }
+      
       var regla1 = /^([1-9])+\.{1}([1-9])+$/;
       if(regla1.test(num)) {
           return num.length - 1;

@@ -1,8 +1,13 @@
 
 var contar =function(num) {
 
+    var regla1a = /^([1-9])+$/;
+    if(regla1a.test(num)) {
+        return num.length;
+    }
+      
     //todos los numeros que no tengan cero
-    var regla1 = /^([1-9])+\.{1}([1-9])+$/;
+    var regla1 = /^([1-9])+\.([1-9])+$/;
     if(regla1.test(num)) {
         return num.length - 1;
     }
